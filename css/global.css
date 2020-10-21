@@ -227,7 +227,7 @@ align-items:center;
     font-family:pro;
 
 }
-.sponsorLinks{
+.sponsorLink{
     height:10%;
     width:80%;
     display:flex;
@@ -246,7 +246,10 @@ align-items:center;
 
 }
 
-
+.sponsorLink:hover{
+    color:#070af1;
+    text-decoration:none;
+}
 
 .sponsors{
     display:flex;
