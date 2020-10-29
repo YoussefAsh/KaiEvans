@@ -199,7 +199,8 @@ align-items:center;
     flex-direction: column;
     justify-content: space-around;
     align-items:center;
-    margin-top:50px;
+    margin-top:30px;
+    margin-bottom:40px;
 }
 
 .sponsorSec > div{
@@ -273,4 +274,12 @@ align-items:center;
 
 .cbs{
     width:25%;
+}
+
+.mdl{
+width:100%;
+}
+
+.s{
+  width:100%;
 }
