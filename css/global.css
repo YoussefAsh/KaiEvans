@@ -394,4 +394,14 @@ align-items:center;
   .mds{
     width:25%;
   }
+
+  .fadeInLeft{
+    display: flex;
+    justify-content: center;
+  }
+
+  .fadeInLeft > img{
+    width:75%;
+    margin-bottom:10px;
+  }
 }
