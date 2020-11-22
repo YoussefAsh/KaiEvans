@@ -32,23 +32,36 @@
 			<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
 				</div>
 <div class="loaderContainer">
-		<div class="kaiNav">
-				<a href="home-main.html" class="logo">
-					<span class="logo__moto">
-						<img src="images/svg/logo.svg" alt="logo">
-					</span>
-					<h2 class="logo__title">
-						KAI EVANS
-					</h2>
-				</a>
-			<div class="navButtons">
-				<a href="index.html">HOME</a>
-				<a href="sponsors.html">SPONSORS</a>
-				<a href="races.html">RACES</a>
-				<a href="faq.html">FAQ</a>
-				<a href="contact.html">CONTACT</a>
-			</div>
+	<nav class="navbar navbar-default kaiNavigator">
+		<div class="container-fluid kaiNavFixer">
+		  <div class="navbar-header kaiHeader">
+			<button type="button" class="navbar-toggle collapsed kaiButton" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			  <span class="sr-only">Toggle navigation</span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+			<a href="index.html" class="logo">
+				<span class="logo__moto">
+					<img src="images/svg/logo.svg" alt="logo">
+				</span>
+				<h2 class="logo__title">
+					KAI EVANS
+				</h2>
+			</a>
+		  </div>
+	  		  <div class="collapse navbar-collapse kaiCollapser" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav kaiLinks">
+			  <li><a class="kaiItems" href="index.html">HOME</a></li>
+			  <li><a class="kaiItems" href="gallery.html">GALLERY</a></li>
+			  <li><a class="kaiItems" href="sponsors.html">SPONSORS</a></li>
+			  <li><a class="kaiItems" href="races.html">RACES</a></li>
+			  <li><a class="kaiItems" href="faq.html">FAQ</a></li>
+			  <li><a class="kaiItems" href="contact.html">CONTACT</a></li>
+			</ul>
+		  </div>
 		</div>
+	  </nav>
 
 
 		<section class="sliders">
@@ -135,9 +148,9 @@
 							<span class="fa fa-motorcycle"></span>
 							<div class="line line--slim line--title"><div class="line__first"></div><div class="line__second"></div></div>
 						</header>
-						<div class="numbers__body chart" data-percent="15">
-							<div class="numbers__num percent">15</div>
-							<div class="number__desc">RACES</div>
+						<div class="numbers__body chart" data-percent="155">
+							<div class="numbers__num percent">155</div>
+							<div class="number__desc">TEST RIDES</div>
 						</div>
 					</div>
 					<div class="numbers__one">
@@ -145,8 +158,8 @@
 							<span class="fa fa-tachometer"></span>
 							<div class="line line--slim line--title"><div class="line__first"></div><div class="line__second"></div></div>
 						</header>
-						<div class="numbers__body chart" data-percent="155">
-							<div class="numbers__num percent">155</div>
+						<div class="numbers__body chart" data-percent="9">
+							<div class="numbers__num percent">9</div>
 							<div class="number__desc">MILES DRIVEN</div>
 						</div>
 					</div>
@@ -155,8 +168,8 @@
 							<span class="fa fa-road"></span>
 							<div class="line line--slim line--title"><div class="line__first"></div><div class="line__second"></div></div>
 						</header>
-						<div class="numbers__body chart" data-percent="9">
-							<div class="numbers__num percent">9</div>
+						<div class="numbers__body chart" data-percent="15">
+							<div class="numbers__num percent">15</div>
 							<div class="number__desc">TESTING DAYS</div>
 						</div>
 					</div>
@@ -167,17 +180,17 @@
 		<section class="partners">
 			<div class="container wow fadeInUp" data-wow-delay="0.7s" data-wow-duration="1.5s">
 				<h2 class="title title--main"><span class="title__bold">KAI EVANS</span> SPONSORS<span class="line line--title line--center"><span class="line__first"></span><span class="line__second"></span></span></h2>
-				<div class="row">
+					<div class="row">
 					<div class="sponsors">
-						<div class="sponsor bourne">
-							<a href="https://www.bourne.uk.com/contact/"><img class="s" src="./assets/sponsors/bourne.png"></a>
-						</div>
-						<div class="sponsor cbs">
-							<a href="http://www.countybsltd.co.uk/en-gb/home/default.aspx "><img class="s" src="./assets/sponsors/cbs.png"></a>
-						</div>
-						<div class="sponsor">
-							<a href="http://mdlelectrical.co.uk/"><img class="s" src="./assets/sponsors/mdl.png"></a>
-						</div>
+						<a href="https://www.bourne.uk.com/contact/" target="_blank" class="sponsor bourne">
+							<img src="./assets/sponsors/bourne.png">
+						</a>
+						<a href="http://www.countybsltd.co.uk/en-gb/home/default.aspx " target="_blank" class="sponsor cbs">
+							<img src="./assets/sponsors/cbs.png">
+						</a>
+						<a href="http://mdlelectrical.co.uk/" target="_blank" class="sponsor">
+							<img src="./assets/sponsors/mdl.png">
+						</a>
 					</div>
 					</div>
 				</div>
@@ -259,13 +272,7 @@
 						</div>
 						<div class="col-xs-8 wow slideInRight" data-wow-delay="0.7s" data-wow-duration="1.5s">
 							<div class="social social--footer social--footer-home pull-right clearfix">
-								<a href="#" class="social__one square">
-									<span class="fa fa-twitter"></span>
-								</a>
-								<a href="#" class="social__one square">
-									<span class="fa fa-facebook"></span>
-								</a>
-								<a href="#" class="social__one square">
+								<a href="https://www.instagram.com/kaievans_42/" target="_blank" class="social__one square">
 									<span class="fa fa-instagram"></span>
 								</a>
 							</div>

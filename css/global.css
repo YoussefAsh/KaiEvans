@@ -166,6 +166,80 @@ align-items:center;
     padding-top:7px;
     }
 
+    .kaiNavigator{
+      height:75px;
+      display: flex;
+      background: white;
+      margin:0 !important;
+      padding:0 !important;
+    }
+
+    .kaiNavFixer{
+      height:100%;
+      width:100%;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      margin:0 !important;
+      padding:0 !important;
+
+    }
+
+    .kaiHeader{
+      height:100%;
+      display:flex;
+      align-items: center;
+    }
+
+    .kaiItems{
+      color:black !important;
+      font-size:18px;
+      font-family:'Lato',sans-serif;
+      font-weight: bold;
+      transition: 0.5s all;
+    } 
+
+    .kaiItems:hover {
+      color:#070af1 !important;
+    }
+
+    .navbar-toggle{
+      background-color:white !important;
+    }
+
+    @media(max-width:768px) {
+      .kaiNavigator{
+        height:100%;
+        display: block;
+        background: white;
+        margin:0 !important;
+        padding:0 !important;
+      }
+  
+      .kaiNavFixer{
+        display:block;
+      }
+
+      .logo{
+        margin:0;
+      }
+
+      .kaiButton{
+        margin-right:20px;
+        margin-top:10px;
+        height:100%;
+      }
+
+      .kaiItems{
+        margin-left:5px;
+      }
+  
+      .kaiHeader{
+        display:block;
+      }
+  
+    }
+
 .navButtons{
     display:flex;
     justify-content: space-around;
@@ -199,8 +273,7 @@ align-items:center;
     flex-direction: column;
     justify-content: space-around;
     align-items:center;
-    margin-top:30px;
-    margin-bottom:40px;
+    margin-top:50px;
 }
 
 .sponsorSec > div{
@@ -228,7 +301,7 @@ align-items:center;
     font-family:pro;
 
 }
-.sponsorLink{
+.sponsorLinks{
     height:10%;
     width:80%;
     display:flex;
@@ -247,9 +320,10 @@ align-items:center;
 
 }
 
-.sponsorLink:hover{
+.sponsorLinks:hover{
     color:#070af1;
     text-decoration:none;
+
 }
 
 .sponsors{
@@ -276,10 +350,48 @@ align-items:center;
     width:25%;
 }
 
-.mdl{
-width:100%;
+.gallery{
+  position: relative;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom:20px ;
 }
 
-.s{
-  width:100%;
+.gallery2{
+  width:90%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rowG{
+  height:17vw;
+  margin:5px;  
+}
+
+
+.rowG > a > img{
+  height:100%;
+  margin:5px;
+}
+
+
+
+
+@media(max-width:768px) {
+  .sponsors{
+    justify-content: space-around;
+  }
+  .sponsor{
+    margin:5px;
+    margin-top:0px;
+    margin-bottom:0px;
+  }
+  .bourne{
+    width:25%;
+  }
+  .mds{
+    width:25%;
+  }
 }
